@@ -1,12 +1,12 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
 import {test} from "tap"
 
-import tempLate from "./"
+import shuffle from "./"
 
-test(({same, end}) => {
-  same(
-    tempLate(true),
-    false
+test(({notSame, end}) => {
+  notSame(
+    shuffle(["1", "2", "3", "4", "5"]),
+    ["1", "2", "3", "4", "5"]
   )
 
   end()
