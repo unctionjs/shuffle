@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
 import {test} from "tap"
 
-import shuffle from "./"
+import shuffle from "./source.js"
 
 test(({notSame, end}) => {
   notSame(
