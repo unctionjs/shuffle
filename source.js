@@ -1,7 +1,7 @@
 /* eslint-disable immutable/no-let, no-magic-numbers, immutable/no-mutation */
 
 // While this raises eslint issues, they should be ignored. This is the best possible shuffle implementation I could find.
-export default function shuffle (array: string | Array<any>): string | Array<any> {
+export default function shuffle (array: string | ArrayType): string | ArrayType {
   let counter = array.length
   const clone = array.slice()
 
