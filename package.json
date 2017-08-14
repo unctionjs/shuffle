@@ -45,8 +45,5 @@
     "flow-bin": "0.51.1",
     "flow-typed": "2.1.5",
     "tap": "10.3.4"
-  },
-  "dependencies": {
-    "ramda": "0.24.1"
   }
 }

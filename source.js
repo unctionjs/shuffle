@@ -1,9 +1,8 @@
 /* eslint-disable immutable/no-let, no-magic-numbers, immutable/no-mutation */
-import {length} from "ramda"
 
 // While this raises eslint issues, they should be ignored. This is the best possible shuffle implementation I could find.
 export default function shuffle (array: string | Array<any>): string | Array<any> {
-  let counter = length(array)
+  let counter = array.length
   const clone = array.slice()
 
   // While there are elements in the array
