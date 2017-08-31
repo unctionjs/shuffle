@@ -67,5 +67,8 @@
     "@unction/last": "1.0.0",
     "@unction/length": "1.0.0",
     "@unction/reducevalues": "2.2.0"
-  }
+  },
+  "files": [
+    "transpiled/index.js"
+  ]
 }
