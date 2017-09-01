@@ -14,12 +14,14 @@ export default function shuffle (orderedList: string | ArrayType): string | Arra
   return reduceValues(
     ({latest, remaining, positions}: {latest: string | ArrayType, remaining: string | ArrayType, positions: Array<number>}): Function =>
       (value: ValueType): {latest: string | ArrayType, remaining: string | ArrayType} | string | ArrayType => {
-        if (isPopulated(remaining)) {
+        const nextRemaining = initial(remaining)
+
+        if (isPopulated(nextRemaining)) {
           const index = Math.floor(Math.random() * length(positions))
 
           return {
             latest: attach(key(index)(positions))(value)(latest),
-            remaining: initial(remaining),
+            remaining: nextRemaining,
             positions: exceptKey(index)(positions),
           }
         }
