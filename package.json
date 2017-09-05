@@ -1,6 +1,6 @@
 {
   "name": "@unction/shuffle",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "Randomizes the indexes of an array",
   "keywords": [
     "unction",
