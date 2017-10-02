@@ -1,13 +1,12 @@
 # @unction/shuffle
 
-
 ![Tests][BADGE_TRAVIS]
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> (string | Array<any>) -> (string | Array<any>)
+> OrderedFunctorType => OrderedFunctorType
 
-Takes an Array and returns an Array with the same content, but in a random order.
+Takes an Ordered Functor and returns an Ordered Functor with the same content, but in a random order.
 
 ``` javascript
 users()
@@ -50,6 +49,5 @@ Would return:
 ```
 
 [BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/shuffle.svg?maxAge=2592000&style=flat-square
-
 [BADGE_STABILITY]: https://img.shields.io/badge/stability-strong-green.svg?maxAge=2592000&style=flat-square
 [BADGE_DEPENDENCY]: https://img.shields.io/david/unctionjs/shuffle.svg?maxAge=2592000&style=flat-square

@@ -1,40 +1,36 @@
-/* eslint-disable immutable/no-let, no-magic-numbers, immutable/no-mutation */
-import key from "@unction/key"
+/* eslint-disable no-magic-numbers */
 import exceptKey from "@unction/exceptkey"
-import initial from "@unction/initial"
 import attach from "@unction/attach"
-import keys from "@unction/keys"
 import fresh from "@unction/fresh"
 import length from "@unction/length"
-import isPopulated from "@unction/ispopulated"
+import range from "@unction/range"
 import reduceValues from "@unction/reducevalues"
 
+type TransitionType = [
+  OrderedFunctorType,
+  OrderedFunctorType,
+]
+
+const AFTER_PLACE = 1
+
 // While this raises eslint issues, they should be ignored. This is the best possible shuffle implementation I could find.
-export default function shuffle (orderedList: string | ArrayType): string | ArrayType {
+export default function shuffle (orderedList: OrderedFunctorType): OrderedFunctorType {
   return reduceValues(
-    ({latest, remaining, positions}: {latest: string | ArrayType, remaining: string | ArrayType, positions: Array<number>}): Function =>
-      (value: ValueType): {latest: string | ArrayType, remaining: string | ArrayType} | string | ArrayType => {
-        const nextRemaining = initial(remaining)
+    ([before, after]: TransitionType): UnaryFunctionType =>
+      (value: ValueType): TransitionType | OrderedFunctorType => {
+        const index = range(0)(length(before))
 
-        if (isPopulated(nextRemaining)) {
-          const index = Math.floor(Math.random() * length(positions))
-
-          return {
-            latest: attach(key(index)(positions))(value)(latest),
-            remaining: nextRemaining,
-            positions: exceptKey(index)(positions),
-          }
-        }
-
-        return latest
+        return [
+          exceptKey(index)(before),
+          attach(index)(value)(after),
+        ]
       },
   )(
-    {
-      remaining: orderedList,
-      latest: fresh(orderedList),
-      positions: keys(orderedList),
-    }
+    [
+      orderedList,
+      fresh(orderedList),
+    ]
   )(
     orderedList
-  )
+  )[AFTER_PLACE]
 }
