@@ -1,6 +1,6 @@
 {
   "name": "@unction/shuffle",
-  "version": "2.7.0",
+  "version": "2.8.0",
   "description": "Takes an Ordered Functor and returns an Ordered Functor with the same content, but in a random order",
   "keywords": [
     "unction",
