@@ -59,13 +59,13 @@
   "dependencies": {
     "@unction/append": "2.8.0",
     "@unction/attach": "3.8.0",
-    "@unction/exceptkey": "1.13.0",
+    "@unction/exceptkey": "1.14.0",
     "@unction/fresh": "3.6.0",
-    "@unction/last": "1.16.0",
-    "@unction/length": "1.16.0",
-    "@unction/mapvalues": "3.17.0",
+    "@unction/last": "1.17.0",
+    "@unction/length": "1.17.0",
+    "@unction/mapvalues": "3.18.0",
     "@unction/range": "1.0.0",
-    "@unction/reducevalues": "2.18.0"
+    "@unction/reducevalues": "2.19.0"
   },
   "files": [
     "transpiled/index.js"
