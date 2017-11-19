@@ -57,15 +57,15 @@
     "tap": "10.3.4"
   },
   "dependencies": {
-    "@unction/append": "2.9.0",
-    "@unction/attach": "3.9.0",
-    "@unction/exceptkey": "1.33.0",
-    "@unction/fresh": "3.7.0",
-    "@unction/last": "1.35.0",
-    "@unction/length": "1.34.0",
-    "@unction/mapvalues": "3.34.0",
+    "@unction/append": "2.10.0",
+    "@unction/attach": "3.10.0",
+    "@unction/exceptkey": "1.34.0",
+    "@unction/fresh": "3.8.0",
+    "@unction/last": "1.36.0",
+    "@unction/length": "1.35.0",
+    "@unction/mapvalues": "3.35.0",
     "@unction/range": "1.0.0",
-    "@unction/reducevalues": "2.34.0"
+    "@unction/reducevalues": "2.35.0"
   },
   "files": [
     "transpiled/index.js"
