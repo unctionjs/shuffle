@@ -63,9 +63,9 @@
     "@unction/fresh": "3.11.0",
     "@unction/last": "1.44.0",
     "@unction/length": "1.42.0",
-    "@unction/mapvalues": "3.41.0",
+    "@unction/mapvalues": "3.42.0",
     "@unction/range": "1.0.0",
-    "@unction/reducevalues": "2.41.0"
+    "@unction/reducevalues": "2.42.0"
   },
   "files": [
     "transpiled/index.js"
