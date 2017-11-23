@@ -61,8 +61,8 @@
     "@unction/attach": "3.13.0",
     "@unction/exceptkey": "1.48.0",
     "@unction/fresh": "3.11.0",
-    "@unction/last": "1.46.0",
-    "@unction/length": "1.45.0",
+    "@unction/last": "1.47.0",
+    "@unction/length": "1.46.0",
     "@unction/mapvalues": "3.44.0",
     "@unction/range": "1.0.0",
     "@unction/reducevalues": "2.43.0"
