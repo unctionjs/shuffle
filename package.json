@@ -58,8 +58,8 @@
   },
   "dependencies": {
     "@unction/append": "2.13.0",
-    "@unction/attach": "3.13.0",
-    "@unction/exceptkey": "1.49.0",
+    "@unction/attach": "3.14.0",
+    "@unction/exceptkey": "1.50.0",
     "@unction/fresh": "3.11.0",
     "@unction/last": "1.48.0",
     "@unction/length": "1.46.0",
