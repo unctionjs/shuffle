@@ -59,11 +59,11 @@
   "dependencies": {
     "@unction/append": "2.13.0",
     "@unction/attach": "3.14.1",
-    "@unction/exceptkey": "1.55.0",
+    "@unction/exceptkey": "1.56.0",
     "@unction/fresh": "4.0.0",
     "@unction/last": "1.49.0",
     "@unction/length": "1.47.0",
-    "@unction/mapvalues": "3.46.0",
+    "@unction/mapvalues": "3.47.0",
     "@unction/range": "1.0.0",
     "@unction/reducevalues": "2.44.0"
   },
