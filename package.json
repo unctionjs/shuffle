@@ -60,7 +60,7 @@
     "@unction/append": "2.13.0",
     "@unction/attach": "3.14.1",
     "@unction/exceptkey": "1.55.0",
-    "@unction/fresh": "3.11.0",
+    "@unction/fresh": "4.0.0",
     "@unction/last": "1.49.0",
     "@unction/length": "1.47.0",
     "@unction/mapvalues": "3.46.0",
