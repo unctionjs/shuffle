@@ -63,7 +63,7 @@
     "@unction/fresh": "4.0.0",
     "@unction/last": "1.49.0",
     "@unction/length": "1.47.0",
-    "@unction/mapvalues": "3.47.0",
+    "@unction/mapvalues": "3.48.0",
     "@unction/range": "1.0.0",
     "@unction/reducevalues": "2.44.0"
   },
