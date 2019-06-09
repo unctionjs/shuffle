@@ -58,15 +58,15 @@
     "tap": "12.6.1"
   },
   "dependencies": {
-    "@unction/append": "6.3.0",
-    "@unction/attach": "7.3.0",
-    "@unction/exceptkey": "12.3.0",
-    "@unction/fresh": "8.3.0",
-    "@unction/last": "11.3.0",
-    "@unction/length": "10.3.0",
-    "@unction/mapvalues": "10.3.0",
-    "@unction/range": "2.3.0",
-    "@unction/reducevalues": "8.3.0",
+    "@unction/append": "6.5.0",
+    "@unction/attach": "7.5.0",
+    "@unction/exceptkey": "12.5.0",
+    "@unction/fresh": "8.5.0",
+    "@unction/last": "11.5.0",
+    "@unction/length": "10.5.0",
+    "@unction/mapvalues": "10.5.0",
+    "@unction/range": "2.5.0",
+    "@unction/reducevalues": "8.5.0",
     "core-js": "3.0.1"
   },
   "files": [
