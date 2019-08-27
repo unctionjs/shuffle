@@ -1,7 +1,7 @@
 /* eslint-disable no-magic-numbers */
 import {test} from "tap";
 
-import shuffle from "./index";
+import shuffle from "./";
 
 test(({ok, end}) => {
   const result = shuffle(["a", "b", "c", "d", "e", "f"]);
