@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> OrderedFunctorType => OrderedFunctorType
+> OrderedEnumerableType<A> => OrderedEnumerableType<A>
 
 Takes an Ordered Functor and returns an Ordered Functor with the same content, but in a random order.
 
