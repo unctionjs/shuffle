@@ -1,5 +1,5 @@
 /* eslint-disable no-magic-numbers */
-import shuffle from "./index.ts";
+import shuffle from "./index";
 
 test(() => {
   const result = shuffle(["a", "b", "c", "d", "e", "f"]);
