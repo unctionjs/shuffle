@@ -1,7 +1,7 @@
 /* eslint-disable no-magic-numbers */
 import shuffle from "./index";
 
-test(() => {
+test("works", () => {
   const result = shuffle(["a", "b", "c", "d", "e", "f"]);
 
   expect(result.includes("a")).toBeTruthy();
@@ -17,20 +17,20 @@ test(() => {
   expect(result.includes("f")).toBeTruthy();
 });
 
-test(() => {
+test("works", () => {
   expect(shuffle(["a", "b", "c", "d", "e", "f"]).length).toBe(6);
 });
 
-test(() => {
+test("works", () => {
   expect(shuffle(["a"]).length).toBe(1);
 });
 
-test(() => {
+test("works", () => {
   expect(shuffle(["a"]).includes("a")).toBeTruthy();
 });
 
 
-test(() => {
+test("works", () => {
   const result = shuffle("abcdef");
 
   expect(result.includes("a")).toBeTruthy();
@@ -46,14 +46,14 @@ test(() => {
   expect(result.includes("f")).toBeTruthy();
 });
 
-test(() => {
+test("works", () => {
   expect(shuffle("abcdef").length).toBe(6);
 });
 
-test(() => {
+test("works", () => {
   expect(shuffle("a").length).toBe(1);
 });
 
-test(() => {
+test("works", () => {
   expect(shuffle("a").includes("a")).toBeTruthy();
 });
