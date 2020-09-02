@@ -64,14 +64,14 @@
     "typescript": "^4.0.2"
   },
   "dependencies": {
-    "@unction/append": "6.9.1",
-    "@unction/attach": "7.10.0",
-    "@unction/exceptkey": "12.10.0",
-    "@unction/fresh": "8.9.1",
-    "@unction/last": "11.9.1",
-    "@unction/length": "10.10.0",
-    "@unction/mapvalues": "10.10.0",
-    "@unction/range": "2.10.0",
-    "@unction/reducevalues": "8.10.0"
+    "@unction/append": "^6.11.0",
+    "@unction/attach": "^7.11.0",
+    "@unction/exceptkey": "^12.11.0",
+    "@unction/fresh": "^8.11.0",
+    "@unction/last": "^11.11.0",
+    "@unction/length": "^10.11.0",
+    "@unction/mapvalues": "^10.11.0",
+    "@unction/range": "^2.11.0",
+    "@unction/reducevalues": "^8.11.0"
   }
 }
