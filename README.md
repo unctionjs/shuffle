@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> OrderedEnumerableType<A> => OrderedEnumerableType<A>
+> OrderedArray<A> | Set<A> | RecordType<unknown, A> | string => OrderedArray<A> | Set<A> | RecordType<unknown, A> | string
 
 Takes an Ordered Functor and returns an Ordered Functor with the same content, but in a random order.
 
