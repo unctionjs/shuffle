@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> OrderedArray<A> | Set<A> | RecordType<unknown, A> | string => OrderedArray<A> | Set<A> | RecordType<unknown, A> | string
+> OrderedArray<A> | Set<A> | Record<string | number | symbol, B> | Map<B, A> | string => OrderedArray<A> | Set<A> | Record<string | number | symbol, B> | Map<B, A> | string
 
 Takes an Ordered Functor and returns an Ordered Functor with the same content, but in a random order.
 
